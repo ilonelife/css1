@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>css
+        </title>
+        <style>
+            div{
+                background-color: olivedrab; 
+                display: inline-block;
+                color: white;
+                text-align: center;
+                font-family: Verdana;
+                font-size: 1rem;
+                line-height: 100px;
+                border:3px solid red;
+                border-bottom:5px dotted blue ;
+                border-top: 3px double black;
+            }
+
+            .type1{
+                width: 600px;
+                height: 200px;
+            }
+
+            .type2{
+                width: 200px;
+                height: 600px;
+            }
+
+            #div1{
+                background-color: blue; 
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                z-index: 2;
+            }
+
+            #div2{
+                background-color: olive; 
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                z-index: 1;
+            }
+
+            #div3{
+                background-color: pink; 
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                z-index: 2;
+            }
+            #div4{
+                background-color: red; 
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                z-index: 1;
+            }
+            #div5{
+                background-color: white; 
+                position: absolute;
+                overflow: auto;
+                width: 400px;
+                height: 250px;
+                top: 200px;
+                left: 200px;
+                z-index: 1;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+
+        <div class="type1" id="div1">DIV1</div>
+        <div class="type2" id="div2">DIV2</div>
+        <div class="type1" id="div3">DIV3</div>
+        <div class="type2" id="div4">DIV4</div>
+        <div id="div5"><img src="img1.png"></div>  
+
+
+
+    </body>
+</html>
